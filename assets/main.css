@@ -151,25 +151,20 @@ header .profile h3 {
     padding-left: 18px;
 }
 
-.first {
-    column-gap: 88px;
-    margin-bottom: 80px;
-    justify-content: center;
-    align-items: center;
-}
-
+.first,
 .two {
-    column-gap: 88px;
+    flex-wrap: wrap;
+    column-gap: 30px;
     margin-bottom: 80px;
     justify-content: center;
-    align-items: center;
 }
 
 .category {
-    width: calc((100% - 264px) / 4);
+    width: calc((100% - 90px) / 4);
     text-align: center;
     padding-top: 30px;
 }
+
 
 .category p {
     margin-right: 32px;
@@ -472,7 +467,7 @@ button {
 
 }
 
-@media screen and (min-width: 320px) and (max-width: 600px) {
+@media screen and (max-width: 600px) {
 
     .container {
         width: calc(100% - 30px);
@@ -627,7 +622,7 @@ button {
     }
 
     .rcard {
-        width: 90%;
+        width: 75%;
         padding: 20px;
         border-radius: 20px;
         background-color: white;
@@ -729,12 +724,11 @@ button {
     }
 
     .copy {
-       
+
         font-size: 12px;
     }
 
 }
-
 
 @media screen and (min-width: 601px) and (max-width: 1024px) {
 
@@ -861,7 +855,7 @@ button {
     }
 
     .rcard {
-        width: 60%;
+        width: 50%;
         padding: 20px;
         border-radius: 20px;
         background-color: white;
@@ -967,7 +961,7 @@ button {
 
 }
 
-@media screen and (min-width: 1025px) and (max-width: 1920px) {
+@media screen and (min-width: 1025px)  {
 
     .container {
         width: calc(100% - 100px);
@@ -1028,22 +1022,22 @@ button {
     }
 
     .first {
-        column-gap: 50px;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 0;
-    }
+    column-gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
 
-    .category {
-        width: calc((100% - 50px) / 2);
-        text-align: center;
-        padding-top: 20px;
-    }
+.category {
+    width: calc((100% - 90px) / 4);
+    text-align: center;
+    padding-top: 20px;
+}
 
-    .two {
-        column-gap: 50px;
-        margin-bottom: 0;
-    }
+.two {
+    column-gap: 30px;
+    margin-bottom: 80px;
+}
 
     .fav-course h2 {
         font-size: 30px;
@@ -1072,13 +1066,13 @@ button {
     }
 
     .recomended-body {
-        gap: 50px;
+        gap: 80px;
         margin-right: 122px;
         justify-content: space-evenly;
     }
 
     .rcard {
-        width: calc((100% - 50px) / 2);
+        width: calc((100% - 80px) / 2);
         padding: 20px;
         border-radius: 20px;
         background-color: white;
@@ -1174,36 +1168,5 @@ button {
         margin-bottom: 70px;
     }
 
-
-
 }
 
-
-@media screen and (min-width: 1921px) {
-
-    .container {
-        width: calc(100% - 240px);
-    }
-
-    header .row {
-        flex-wrap: wrap;
-    }
-
-    header .profile h3 {
-        font-size: 18px;
-    }
-
-    .courses-section .container {
-        padding-top: 52px;
-        padding-bottom: 155px;
-    }
-
-    .courses-cards {
-        gap: 50px;
-        padding-right: 65px;
-        padding-left: 65px;
-    }
-
-
-
-}
