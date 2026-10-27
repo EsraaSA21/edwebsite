@@ -353,9 +353,7 @@ header .profile h3 {
 }
 
 .choices .container {
-    margin-top: 95px;
-    padding-left: 60px;
-    margin-bottom: 90px;
+    padding: 10px;
 }
 
 .header-choice {
@@ -956,7 +954,7 @@ button {
 
 }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1025px) and (max-width:1200px){
 
     .container {
         width: calc(100% - 100px);
@@ -1161,10 +1159,6 @@ button {
     .row-input {
         margin-bottom: 70px;
     }
-
-}
-@media screen and (min-width: 1025px) and (max-width: 1199px) {
- 
     .recomended-course .container {
         width: calc(100% - 60px);
         padding-left: 20px;
@@ -1221,8 +1215,11 @@ button {
     .new-price {
         font-size: 16px;
     }
+
 }
- @media screen and (min-width: 1200px) {
+
+
+ @media screen and (min-width: 1200px)  {
      
     .recomended-course .container {
         width: calc(100% - 60px);
